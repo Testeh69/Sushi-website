@@ -1,0 +1,132 @@
+
+
+.hero{
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-img img{
+    height:80vh;
+    width:auto;
+    margin-top: 20px;
+}
+
+
+.left{
+    background-color: var(--primary-color);
+    width:50%;
+}
+
+.right{
+    width:50%;
+}
+
+.top{
+    height:80%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:75%;
+}
+
+.title{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 80px;
+}
+
+.button-section{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    margin-top: -50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: solid 2px;
+    border-radius: 10px;
+    height:50px;
+    width:180px;
+}
+
+button:hover{
+    color: white;
+    background-color: var(--black-300);
+
+}
+
+#button-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.arrow-right{
+    margin-left: 20px;
+    margin-right: 5px;
+    height: 20px;
+    color:black
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:20%;
+    background-color: var(--color-white);
+}
+.right-commentary{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    border-left:solid 1px;
+}
+
+.profil{
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.left-commentary{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#number{
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+#sujet{
+    font-size: 20px;
+    margin-top: -20px;
+}
+.hero-paragraph{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.chinois{
+    font-size: 100px;
+    margin-top: -186px;
+    margin-left: 20px;
+}

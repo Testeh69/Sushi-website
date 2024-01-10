@@ -55,22 +55,32 @@ button{
     margin-right: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
-    border: solid 2px;
-    border-radius: 10px;
     height:50px;
     width:180px;
 }
 
-button:hover{
+#button-right:hover, #button-left:hover{
+    border-radius: 50px;
+    border: 2px black;
     color: white;
-    background-color: var(--black-300);
+    background-color: var(--secondary-color);
 
 }
 
-#button-right{
+
+.title_button{
+    margin-right: 20px;
+    margin-left: -10px;
+}
+
+#button-right, #button-left{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    background-color: beige;
+    border: none;
+    font-weight: bold;
 }
 
 .arrow-right{
@@ -78,6 +88,10 @@ button:hover{
     margin-right: 5px;
     height: 20px;
     color:black
+}
+
+.play-circle{
+    height:50px;
 }
 
 .bottom{
@@ -130,3 +144,5 @@ button:hover{
     margin-top: -186px;
     margin-left: 20px;
 }
+
+

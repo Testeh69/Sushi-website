@@ -1,0 +1,120 @@
+.food{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.trend{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.trend_img{
+    background-color: #fff;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.avis_circle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#right{
+    margin-left: 50px;
+}
+
+.img_trend_list{
+    margin-left: 0;
+    padding-left: 0;
+    border: solid 1px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    border-radius: 50px;
+    background-color: var(--primary-color);
+    height: 55px;
+
+}
+
+.trend_list{
+    font-size: 25px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:40%;
+    width:60%;
+}
+
+.object_list_trend_inline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 25px;
+    width:220px;
+    height:70px;
+}
+
+.trend_text_title{
+    font-size: 48px;
+    margin-bottom: 26px;
+}
+
+.trend_text_subtitle{
+    font-size: 30px;
+}
+
+.check_img{
+    height:20px;
+}
+
+#left_trend{
+    border-left: none;
+}
+
+#right_trend{
+    border-right: none ;
+}
+
+.trend_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: beige;
+    width:50%;
+    color: var(--secondary-color);
+    border: solid black 1.4px;
+   
+ 
+    
+}
+
+.Avis{
+    border-radius: 00px;
+    background-color: var(--secondary-color);
+    color: white;
+    width: 8%;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_trend{
+    padding-top: 100px;
+    padding-top: 100px;
+    width:500px;
+    height:auto;
+}

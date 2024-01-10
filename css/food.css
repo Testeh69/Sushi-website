@@ -1,0 +1,188 @@
+.popular-foods{
+    background-color: var(--primary-color);
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    height:800px;
+    align-items: center;
+    padding-top: 50px ;
+}
+
+.popular-foods__title{
+    color:white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll_menu{
+    padding-top: 100px ;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.button_scroll{
+    border: solid;
+    background-color: transparent;
+    color:white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button_scroll:hover{
+    background-color: white ;
+    color: var(--secondary-color);
+
+}
+
+.card_food_menu{
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.card_food{
+    font-size: 25px;
+    color: white;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    border: solid white;
+    height:360px;
+    width:300px;
+}
+
+
+#food_card_one, #food_card_two, #food_card_three{
+    height:150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.info_card{
+    padding-top: 24px;
+    width:80%;
+    height:8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.star{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+
+
+
+
+.price{
+    position: relative;
+}
+
+
+#food_price_three, #food_price_two{
+    margin-right: -50px;
+}
+
+
+
+.button_slide_food{
+    padding-top: 100px;
+
+}
+
+
+
+
+
+
+#info_card_one{
+    padding-top: 5px;
+}
+
+#button_food_arrow{
+    height:20px;
+    padding-left: 10px;
+}
+#menu_food_order{
+    width: 200px;
+    background-color: var(--secondary-color);
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid var(--secondary-color);
+    border-radius: 50px;
+}
+
+
+
+#menu_food_order:hover{
+    width: 200px;
+    background-color: white;
+    color:var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid white;
+    border-radius: 50px;
+}
+
+
+.card_food:hover{
+    animation-name: selectCard;
+    animation-duration: 2s;
+    background-color: white;
+    color: black;
+    height:420px;
+    width: 340px;
+    font-size: 30px;
+}
+
+.card_food:hover img {
+    animation-duration: 2s;
+    transform: scale(1.2); /* Augmente la taille de l'image */
+    transition: transform 1 ease; /* Ajoute une transition en douceur */
+}
+
+
+
+
+
+
+@keyframes selectCard{
+    from{
+        height:360px;
+        width: 300px;
+        font-size: 25px;
+        transform: scale(1);
+        
+
+    }
+
+    to{
+        height:420px;
+        width: 340px;
+        font-size: 30px;
+        transform: (1.2);
+    }
+}

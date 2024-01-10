@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/hero.css">
-
+    <link rel="stylesheet" href="../css/aboutus.css">
+    <link rel="stylesheet" href="../css/food.css">
+    <link rel="stylesheet" href="../css/trend.css">
+    <link rel="stylesheet" href="../css/newsletter.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <title>Sushiman</title>
 </head>
 <body>
@@ -20,16 +24,16 @@
             <div class="header_navbar">
                 <ul class="header_menu">
                     <li>
-                        <a href="#menu">MENU</a>
+                        <a href="#three_land">MENU</a>
                         </li>
                     <li>
-                        <a href="#food">FOOD</a>
+                        <a href="#four_land">FOOD</a>
                     </li>
                     <li>
-                        <a href="#services">SERVICES</a>
+                        <a href="#five_land">SERVICES</a>
                     </li>
                     <li>
-                        <a href="#about-us">ABOUT US</a>
+                        <a href="#two_land">ABOUT US</a>
                     </li>
                 </ul>
                 <ul class="header_menu-mobile">
@@ -41,7 +45,7 @@
         </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="one_land">
         <div class="left">
             <div class="hero-img">
                 <img src="../assets/sushi-1.png" alt="sushi" />
@@ -60,7 +64,7 @@
                 </div>
                 <div class="button-section">
                     <button id="button-left">Order Now</button>
-                    <button id="button-right"><img class="arrow-right" src="../assets/arrow-right.svg" alt="arrow-rigt"/>How to Order</button>
+                    <button id="button-right"><img class="play-circle" src="../assets/play-circle.svg" alt="arrow-rigt"/><h4 class="title_button">How to Order</h4></button>
                 </div>
             </div>
             <div class="bottom" id="commentary">
@@ -71,12 +75,315 @@
                 <br>
                 <div class="right-commentary">
                     <img class="profil" src="../assets/user.png" alt="profil"/>
-                    <p>"This is the best japanese food delivery food service that ever existed."</p>
+                    <p>"This is the best japanese food delivery food service that have ever existed."</p>
                 </div>
 
             </div>
         </div>
     </section>
 
+    <section class="about_us" id="two_land">
+        <div class="left-about-us">
+            <div id="haut_img">
+                <img id ="sushi-haut" alt="sushi-1" src="../assets/sushi-3.png"/>
+                <img id="background_haut" alt="background_haut" src="../assets/about_bg1.png">
+            </div>
+            <div id="button">
+                <button id="about-us">
+                    <h4>Learn More</h4>
+                    <img  class="arrow_learn_more" src="../assets/arrow-right.svg" alt="arrow-right-diagonal">
+                </button>
+            </div>
+            <div id="bas_img">
+                <img id ="sushi-bas" alt="sushi-1" src="../assets/sushi-2.png"/>
+                <img id="background_bas" alt="background_bas" src="../assets/about_bg2.png">
+            </div>
+        </div>
+        
+        <div class="right-about-us">
+            <p class="sushi__subtitle">About Us / 私たちに関しては</p>
+            <h3 class="sushi__title">
+              Our mission is to bring true Japanese flavours to you.
+            </h3>
+            <p class="sushi__description">
+              We will continue to provide the experience of Omotenashi, the Japanese
+              mindset of hospitality, with our shopping and dining for our
+              customers.
+            </p>
+        </div>
+    </section>
+
+    <section class="popular-foods" id="three_land">
+
+        <h2 class="popular-foods__title" data-aos="flip-up">
+        Popular Food / 人気
+        </h2>
+        <div class="menu_food">
+            <div class="scroll_menu">
+                <button class="button_scroll" id="all">
+                    All
+                </button>
+                <button class="button_scroll" id="sushi">
+                    Sushi
+                    <img src="../assets/sushi-9.png" alt="sushi">
+                </button>
+                <button class="button_scroll" id="Ramen">
+                    Ramen
+                    <img src="../assets/sushi-8.png" alt="ramen">
+                </button>
+                <button class="button_scroll" id="Udon">
+                    Udon
+                    <img src="../assets/sushi-7.png" alt="udon">
+                </button>
+                <button class="button_scroll" id="Dengo">
+                    Dengo
+                    <img src="../assets/sushi-6.png" alt="dengo">
+                </button>
+                <button class="button_scroll" id="Others">
+                    Others
+                </button>            
+            </div>
+            <div class="card_food_menu">
+                <div class="card_food" id="one">
+                    <img id="food_card_one" alt="sushi originale" src="../assets/sushi-11.png">
+                    <h4 class="food_card_title" id="title_one"></h4>
+                    <div class="info_card">
+                        <div class="star" id="food_star_one">
+                            <p id="star_one"></p>
+                            <img src="../assets/star.svg" alt="star" class="star">
+                        </div>
+                        <div class="price" id="food_price_one">
+
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="card_food" id="two">
+                    <img id="food_card_two" alt="sushi chezu" src="../assets/sushi-12.png">
+                    <h4 class="food_card_title" id="title_two"></h4>
+                    <div class="info_card">
+                        <div class="info_card" id="info_card_one">
+                            <div class="star" id="food_star_two">
+                                <p id="star_two"></p>
+                                <img src="../assets/star.svg" alt="star" class="star">
+                            </div>
+                            <div class="price" id="food_price_two">
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_food" id="three">
+                    <img id="food_card_three"  alt ="Ramen Legend" src="../assets/sushi-10.png">
+                    <h4 class="food_card_title" id="title_three"></h4>
+                    <div class="info_card" id="info_card_one">
+                        <div class="info_card">
+                            <div class="star" id="food_star_three">
+                                <p id="star_three"></p>
+                                <img src="../assets/star.svg" alt="star" class="star">
+                            </div>
+                            <div class="price" id="food_price_three">
+    
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button_slide_food">
+            <button id="menu_food_order">Explore Food <img src="../assets/arrow-right.svg" id="button_food_arrow"alt="arrow"></button>
+        </div>
+        
+    </section>
+
+    <section class="food" id="four_land">
+        <section class="trend" id="sushi_trend">
+            <div class="trend_text" id="left_trend">
+                <h4 class="trend_text_title">Japanese Sushi</h4>
+                <p class="trend_text_subtitle"> Feel the taste of the most delicious Sushi here.</p>
+                <div class="trend_list">
+                    <ul class="trend_list_object" id="left">
+                        <li class="object_list_trend_inline">
+                            <div class="img_trend_list">
+                                <img src="../assets/check.svg" alt="check" class="check_img">
+                            </div>
+                            <p>Make Sushi</p>
+                        </li>
+                        <li class="object_list_trend_inline">
+                            <div class="img_trend_list">
+                                <img src="../assets/check.svg" alt="check" class="check_img">
+                            </div>
+                            <p>Nigiri Sushi</p>
+                        </li>
+                        <li class="object_list_trend_inline">
+                            <div class="img_trend_list">
+                                <img src="../assets/check.svg" alt="check" class="check_img">
+                            </div>
+                            <p>Oshizushi</p>
+                        </li>
+                    </ul>
+                    <ul class="trend_list_object" id="right">
+                        <li class="object_list_trend_inline">
+                            <div class="img_trend_list">
+                                <img src="../assets/check.svg" alt="check" class="check_img">
+                         </div>
+                            <p>Temaki Sushi</p>
+                        </li>
+                        <li class="object_list_trend_inline">
+                            <div class="img_trend_list">
+                                <img src="../assets/check.svg" alt="check" class="check_img">
+                         </div>
+                            <p>Uramaki Sushi</p>
+                        </li class="object_list_trend_inline">
+                        <li class="object_list_trend_inline">
+                            <div class="img_trend_list">
+                                <img src="../assets/check.svg" alt="check" class="check_img">
+                         </div>
+                            <p>Inari Sushi</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="trend_img" id="trend_img_sushi">
+                <img src="../assets/sushi-5.png" alt="sushi" class="img_trend" id="trend_sushi">
+            </div>
+        </section>
+        <section class="trend" id="drink_trend">
+            <div class="trend_img" id="trend_img_drink">
+                <img src="../assets/sushi-4.png" alt="boisson" class="img_trend" id="trend_boisson">
+            </div>
+            <div class="trend_text" id="right_trend">
+                <h4 class="trend_text_title">Japanese Drink</h4>
+                <p class="trend_text_subtitle">Feel the taste of most delicious Japanese drinks here.</p>
+                <div class="trend_list">
+                    <ul class="trend_list_object" id="left">
+                        <li class="object_list_trend_inline">
+                            <div class="img_trend_list">
+                                <img src="../assets/check.svg" alt="check" class="check_img">
+                         </div>
+                            <p>Oruncha</p>
+                        </li>
+                        <li class="object_list_trend_inline">
+                            <div class="img_trend_list">
+                                <img src="../assets/check.svg" alt="check" class="check_img">
+                         </div>
+                            <p>Ofukucha</p>
+                        </li>
+                        <li class="object_list_trend_inline">
+                            <div class="img_trend_list">
+                                <img src="../assets/check.svg" alt="check" class="check_img">
+                         </div>
+                            <p>Sakura Tea</p>
+                        </li>
+                    </ul>
+                    <ul class="trend_list_object" id="right">
+                        <li class="object_list_trend_inline">
+                            <div class="img_trend_list">
+                                <img src="../assets/check.svg" alt="check" class="check_img">
+                         </div>
+                            <p>Kombu-cha</p>
+                        </li>
+                        <li class="object_list_trend_inline">
+                            <div class="img_trend_list">
+                                <img src="../assets/check.svg" alt="check" class="check_img">
+                         </div>
+                            <p>Aojiru</p>
+                        </li>
+                        <li class="object_list_trend_inline">
+                            <div class="img_trend_list">
+                                <img src="../assets/check.svg" alt="check" class="check_img">
+                         </div>
+                            <p>Mugicha</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+    </section>
+
+    <section class="newsletter" id="five_land">
+        <div class="newsletter_section">
+           
+            <div class="text_newsletter">
+                <h2 class="text_newsletter_title">Get Offers straight to your inbox</h2>
+                <p class="text_newsletter_subtitle">Sign up for the sushiman newsletter</p>
+                <div class="subscription_form">
+                    <input class="input_form" type="text" placeholder="Enter your email address">
+                    <button class="subscription_button">Get Started</button>
+                </div>
+
+            </div>
+          
+            
+        </div>
+        
+
+    </section>
+    <footer class="contact" >
+        <div id="contact_left">
+            <h2>SUSHIMAN</h2>
+        </div>
+        <div id="contact_middle">
+            <nav class="nav_footer">
+                <ul>
+                    <li><a href="#one_floor">MENU</a></li>
+                    <li><a href="#two_floor">FOOD</a></li>
+                    <li><a href="#three_floor">SERVICES</a></li>
+                    <li><a href="#four_floor">ABOUT US</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="contact_right">
+            <div class="footer_img_contour">
+                <img src="../assets/facebook.svg" alt="facebook"  class="image_footer" id="facebook">
+            </div>
+            <div class="footer_img_contour">
+
+                <img src="../assets/twitter.svg" alt="twitter"  class="image_footer" id="twitter">
+            </div>
+            <div class="footer_img_contour">
+                <img src="../assets/instagram.svg" alt="instagram"  class="image_footer" id="instagram">
+            </div>
+        </div>
+
+    </footer>
+
+      <script>
+        const dataFood = {
+        name:["Original Sushi", "Chezu Sushi", "Ramen Legends"],
+        star:[4.25, 3.75, 4.5],
+        price:[7.5, 6.25, 9]};
+
+
+        const foodCardOneTitle = document.getElementById("title_one");
+        const foodCardOneStar = document.getElementById("star_one");
+        const foodCardOnePrice = document.getElementById("food_price_one");
+
+        const foodCardTwoTitle = document.getElementById("title_two");
+        const foodCardTwoStar = document.getElementById("star_two");
+        const foodCardTwoPrice = document.getElementById("food_price_two");
+
+        const foodCardThreeTitle = document.getElementById("title_three");
+        const foodCardThreeStar = document.getElementById("star_three");
+        const foodCardThreePrice = document.getElementById("food_price_three");
+
+        foodCardOneTitle.innerHTML = dataFood.name[0];
+        foodCardOneStar.innerHTML = dataFood.star[0];
+        foodCardOnePrice.innerHTML = `$${ dataFood.price[0]}`;
+
+        foodCardTwoTitle.innerHTML = dataFood.name[1];
+        foodCardTwoStar.innerHTML = dataFood.star[1];
+        foodCardTwoPrice.innerHTML = `$${ dataFood.price[1]}`;
+
+        foodCardThreeTitle.innerHTML = dataFood.name[2];
+        foodCardThreeStar.innerHTML = dataFood.star[2];
+        foodCardThreePrice.innerHTML = `$${ dataFood.price[2]}`;
+        
+        
+      </script>
+      
 </body>
 </html>
